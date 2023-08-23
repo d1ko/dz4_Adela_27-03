@@ -1,0 +1,33 @@
+.FormUser {
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 30px 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: orange;
+    margin: 20px 0;
+}
+
+.FormUser h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.FormUser input {
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.FormUser button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+.FormUser button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+.FormUser button:active {
+    transform: scale(1.1);
+}
